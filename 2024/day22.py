@@ -1,7 +1,7 @@
 from aocd import get_data, submit
 
 data = "1\n10\n100\n2024"  # Example data from puzzle
-# data = get_data(day=22, year=2024)
+data = get_data(day=22, year=2024)
 
 def update_secret(secret):
     # Step 1: multiply by 64, mix (XOR), and prune
